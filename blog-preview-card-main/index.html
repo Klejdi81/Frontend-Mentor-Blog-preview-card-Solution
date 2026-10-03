@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <style>
+      @font-face {
+        font-family: "Figtree";
+        src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-weight: 100 900;
+        font-style: italic;
+      }
+      body {
+        background-color: hsl(47, 88%, 63%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Figtree", sans-serif;
+      }
+
+      .container {
+        width: 300px;
+        padding: 15px 20px;
+        border-radius: 15px;
+        background-color: white;
+      }
+
+      .container > h4 {
+        background-color: hsl(47, 88%, 63%);
+        color: black;
+        padding: 5px 15px;
+        display: inline-block;
+        border-radius: 4px;
+      }
+
+      .container > img {
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      .container p {
+        color: hsl(0, 0%, 42%);
+        margin-top: 0px;
+      }
+
+      .avatar-div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="assets/images/illustration-article.svg" alt="" />
+      <h4>Learning</h4>
+      <p>Published 21 Dec 2023</p>
+      <h2>HTML & CSS foundations</h2>
+
+      <p>
+        These languages are the backbone of every website ,defininf structure
+        ,content, and presentation.
+      </p>
+
+      <div class="avatar-div">
+        <img src="assets/images/image-avatar.webp" alt="" />
+        <span>Greg Hooper</span>
+      </div>
+    </div>
+  </body>
+</html>
